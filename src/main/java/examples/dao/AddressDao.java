@@ -1,13 +1,5 @@
 package examples.dao;
 
-/**
- * Created with IntelliJ IDEA.
- * User: adrien
- * Date: 8/05/12
- * Time: 0:10
- * To change this template use File | Settings | File Templates.
- */
-
 import org.apache.ibatis.annotations.CacheNamespace;
 import org.apache.ibatis.annotations.Delete;
 import org.apache.ibatis.annotations.Insert;
