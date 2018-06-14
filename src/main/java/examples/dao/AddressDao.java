@@ -19,19 +19,19 @@ public interface AddressDao {
 
 	@Select(GET_ADDRESS_BY_ID)
 	@Options(useCache=true)
-	public Address doSelectAddress(long addressId) throws Exception;
+	public Address doSelectAddressV2(long addressId) throws Exception;
 
 	@Insert(INSERT_ADDRESS)
 	@Options(useGeneratedKeys = true, keyProperty = "id", flushCache=true)
-	public int doCreateAddress(Address address) throws Exception;
+	public int doCreateAddressV2(Address address) throws Exception;
 
 	@Update(UPDATE_ADDRESS)
 	@Options(flushCache=true)
-	public int doUpdateAddress(Address address) throws Exception;
+	public int doUpdateAddressV2(Address address) throws Exception;
 
 	@Delete(DELETE_ADDRESS)
 	@Options(flushCache=true)
-	public int doDeleteAddress(long addressId) throws Exception;
+	public int doDeleteAddressV2(long addressId) throws Exception;
 
 }
 
