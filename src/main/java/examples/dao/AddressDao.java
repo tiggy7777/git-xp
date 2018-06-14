@@ -33,5 +33,6 @@ public interface AddressDao {
 	@Options(flushCache=true)
 	public int doDeleteAddressV2(long addressId) throws Exception;
 
+
 }
 
