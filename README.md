@@ -1,4 +1,4 @@
-# This is my Git repo XP
+# This is my Git repo XP (V3.0)
 1. First ordered list item
 2. Another item
 ..* Unordered sub-list. 
